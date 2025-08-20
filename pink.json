@@ -1,0 +1,32 @@
+{
+  "CTk": {
+    "fg_color": ["#ffe6f0", "#1a1a1a"]
+  },
+  "CTkButton": {
+    "fg_color": ["#ff66b2", "#ff66b2"],
+    "hover_color": ["#ff99cc", "#ff99cc"],
+    "text_color": ["#ffffff", "#ffffff"]
+  },
+  "CTkEntry": {
+    "fg_color": ["#fff0f5", "#333333"],
+    "text_color": ["#000000", "#ffffff"],
+    "placeholder_text_color": ["#b30059", "#ffccf2"]
+  },
+  "CTkTextbox": {
+    "fg_color": ["#fff0f5", "#262626"],
+    "text_color": ["#000000", "#ffffff"]
+  },
+  "CTkOptionMenu": {
+    "fg_color": ["#ff80bf", "#ff80bf"],
+    "button_color": ["#ff4da6", "#ff4da6"],
+    "button_hover_color": ["#ff99cc", "#ff99cc"],
+    "text_color": ["#ffffff", "#ffffff"]
+  },
+  "CTkTabview": {
+    "fg_color": ["#ffe6f0", "#1a1a1a"],
+    "segmented_button_fg_color": ["#ff66b2", "#ff66b2"],
+    "selected_color": ["#ff3385", "#ff3385"],
+    "text_color": ["#000000", "#ffffff"]
+  }
+}
+
