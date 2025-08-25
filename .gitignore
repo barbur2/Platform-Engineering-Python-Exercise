@@ -4,3 +4,8 @@ __pycache__/
 .venv/
 __pycache__/
 *.pyc
+.idea/
+*.pkg
+*.txt.py
+local_test.txt
+test.txt
