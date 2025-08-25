@@ -23,7 +23,7 @@ requirements.txt contains:
 boto3
 click
 
-# 🚀 Running the CLI
+## 🚀 Running the CLI
 To see all available commands:
 python cli.py --help
 
@@ -33,7 +33,7 @@ python cli.py s3 --help
 python cli.py route53 --help
 python cli.py cleanup --help
 
-# 💻 EC2 Usage Examples
+## 💻 EC2 Usage Examples
 Create an instance
 python cli.py ec2 create --type t3.micro --project demo
 
@@ -46,7 +46,7 @@ python cli.py ec2 stop --id i-xxxxxxxx
 Start an instance
 python cli.py ec2 start --id i-xxxxxxxx
 
-# 🪣 S3 Usage Examples
+## 🪣 S3 Usage Examples
 Create a private bucket
 python cli.py s3 create --name bar-bucket-test-1 --visibility private --project demo
 
@@ -60,7 +60,7 @@ Upload a file
 echo "hello world" > test.txt
 python cli.py s3 upload --name bar-bucket-test-1 --file test.txt
 
-# 🌐 Route53 Usage Examples
+## 🌐 Route53 Usage Examples
 Create a hosted zone
 python cli.py route53 create-zone --name bar-test-domain.com --project demo
 
@@ -88,11 +88,11 @@ python cli.py route53 delete-record \
   --type A \
   --value 5.6.7.8
 
-# 🧹 Cleanup
+## 🧹 Cleanup
 Delete all resources created by your CLI (EC2 / S3 / Route53 with Student=bar tag):
 python cli.py cleanup all
 
-# ✅ Definition of Done (DoD)
+## ✅ Definition of Done (DoD)
 CLI enforces constraints:
 EC2: only t3.micro or t2.small, maximum 2 running
 S3: confirmation required for public buckets, uploads only to CLI buckets
