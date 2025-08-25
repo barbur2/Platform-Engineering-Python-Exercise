@@ -32,54 +32,54 @@ python cli.py route53 --help
 python cli.py cleanup --help
 
 ## 💻 EC2 Usage Examples
-- Create an instance
+- Create an instance:
   python cli.py ec2 create --type t3.micro --project demo
 
-- List CLI-created instances
+- List CLI-created instances:
   python cli.py ec2 list
 
-- Stop an instance
+- Stop an instance:
   python cli.py ec2 stop --id i-xxxxxxxx
 
-- Start an instance
+- Start an instance:
   python cli.py ec2 start --id i-xxxxxxxx
 
 ## 🪣 S3 Usage Examples
-- Create a private bucket
+- Create a private bucket:
   python cli.py s3 create --name bar-bucket-test-1 --visibility private --project demo
 
-- Create a public bucket (requires confirmation)
+- Create a public bucket (requires confirmation):
   python cli.py s3 create --name bar-bucket-test-2 --visibility public --project demo
 
-- List CLI-created buckets
+- List CLI-created buckets:
   python cli.py s3 list
 
-- Upload a file
+- Upload a file:
   echo "hello world" > test.txt
   python cli.py s3 upload --name bar-bucket-test-1 --file test.txt
 
 ## 🌐 Route53 Usage Examples
-- Create a hosted zone
+- Create a hosted zone:
 python cli.py route53 create-zone --name bar-test-domain.com --project demo
 
-- List CLI-created zones
+- List CLI-created zones:
 python cli.py route53 list-zones
 
-- Create a DNS record
+- Create a DNS record:
   python cli.py route53 create-record \
     --zone-id /hostedzone/Z059923621I6CZ01H35IJ \
     --name www.bar-test-domain.com \
     --type A \
     --value 1.2.3.4
 
-- Update the record
+- Update the record:
   python cli.py route53 update-record \
     --zone-id /hostedzone/Z059923621I6CZ01H35IJ \
     --name www.bar-test-domain.com \
     --type A \
     --value 5.6.7.8
 
-- Delete the record
+- Delete the record:
   python cli.py route53 delete-record \
     --zone-id /hostedzone/Z059923621I6CZ01H35IJ \
     --name www.bar-test-domain.com \
