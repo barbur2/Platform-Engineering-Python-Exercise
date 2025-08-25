@@ -24,7 +24,7 @@ boto3
 click
 
 ## 🚀 Running the CLI
-To see all available commands:
+- To see all available commands:
 python cli.py --help
 
 Each resource group has its own set of commands:
