@@ -11,7 +11,7 @@ Student=bar (used to separate your resources from the rest of the class)
 
 This ensures that the CLI never touches resources created outside of this tool.
 
-# 📦 Prerequisites
+## 📦 Prerequisites
 Python 3.9+
 AWS account with permissions for EC2, S3, Route53
 
