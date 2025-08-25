@@ -9,3 +9,10 @@ __pycache__/
 *.txt.py
 local_test.txt
 test.txt
+GUI.py
+pink.json
+.idea/
+*.pkg
+*.txt.py
+local_test.txt
+test.txt
